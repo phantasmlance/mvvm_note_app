@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mvvm_Note_App</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="save">Save</string>
+    <string name="hint_note">Notes…</string>
+    <string name="empty_not_saved">Note not saved because it is empty.</string>
+</resources>
