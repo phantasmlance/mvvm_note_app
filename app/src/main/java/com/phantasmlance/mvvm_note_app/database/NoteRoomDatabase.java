@@ -43,12 +43,11 @@ public abstract class NoteRoomDatabase extends RoomDatabase {
 
             // If you want to keep data through app restarts,
             // comment out the following block
-            databaseWriteExecutor.execute(() -> {
-                // If you want to keep data through app restarts,
-                // comment out the following block
+
+//            databaseWriteExecutor.execute(() -> {
 //                NoteDao dao = INSTANCE.noteDao();
 //                dao.deleteAll();
-            });
+//            });
         }
     };
 }
